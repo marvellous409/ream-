@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "../assets/component 67.png";
+import Image from "../assets/Component 67.png";
 
 const Narbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
