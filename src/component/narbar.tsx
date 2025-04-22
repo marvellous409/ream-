@@ -40,7 +40,7 @@ const Narbar = () => {
         {/* Hamburger Button */}
         <div className="lg:hidden ml-auto">
           <button
-            className="text-4xl  p-2 rounded-lg font-bold bg-gray-500"
+            className="text-4xl  p-2 rounded-lg font-bold bg-gray-400"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             {menuOpen ? "✖" : "☰"}

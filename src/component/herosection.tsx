@@ -40,10 +40,10 @@ const HeroSection = () => {
             </p>
 
             <div className="flex mt-10 gap-4">
-              <button className="w-[191px] h-[49px] bg-[#8635FC] rounded-md p-3 font-serif text-white">
+              <button className="w-[191px] h-[49px] bg-[#8635FC] hover:bg-purple-800 rounded-md p- font-serif text-white">
                 Try DreamTrack Free
               </button>
-              <button className="w-[191px] h-[49px] bg-transparent border border-purple-600 rounded-md p-3 text-purple-600">
+              <button className="w-[191px] h-[49px] bg-transparent border border-purple-600 rounded-md  text-purple-600">
                 Book a Demo
               </button>
             </div>
