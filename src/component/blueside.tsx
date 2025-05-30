@@ -10,11 +10,11 @@ import vector3 from "../assets/Vector 6.png";
 
 const BlueSide = () => {
   return (
-    <div className="bg-[#16072c]">
-      <div className="w-fit mx-auto">
+    <div className="bg-[#16072c] overflow-hidden">
+      <div className="mx-auto">
         <div className="text-white px-8 py-14 font-sans">
           {/* Header Section with Lightbulb and Title */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mr-20 mb-6 px-4 text-center md:text-left">
+          <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10 px-4 mx-auto">
             <img
               src={light}
               alt="Light bulb"
@@ -22,7 +22,7 @@ const BlueSide = () => {
             />
 
             <div>
-              <h1 className="text-3xl md:text-5xl font-semibold leading-tight">
+              <h1 className="text-3xl md:text-5xl font-semibold leading-tight text-center">
                 Why Raem Track?
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mt-2">
@@ -32,14 +32,14 @@ const BlueSide = () => {
           </div>
 
           {/* Connect Your Tools Block */}
-          <div className="mb-12 mt-20 w-fit text-left ml-30 md:ml-11">
-            <div className="flex  sm:flex-row items-start space-y-3 sm:space-y-0 sm:space-x-3">
-              <img src={Vector1} alt="star" className="w-5 mt-1" />
-              <p className="text-base text-gray-300 font-semibold">
+          <div className="mb-12 mt-20 flex justify-center px-4">
+            <div className="flex items-center gap-3">
+              <img src={Vector1} alt="star" className="w-5 mb-12" />
+              <p className="text-gray-300 font-semibold md:mr-40 text-center sm:text-left">
                 <span className="text-cyan-400">Connect your tools</span>
-                — No more silos. Raem Track <br />
-                automatically pulls in all your active projects and <br />
-                tasks — zero data migration headaches.
+                — No more silos. Raem Track <br /> automatically pulls in all
+                your active projects and <br /> tasks — zero data migration
+                headaches.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ const BlueSide = () => {
             />
           </div>
 
-          <p className="mt-16 font-semibold mx-auto">
+          <p className="mt-16 font-semibold text-center">
             Plug in Asana, Jira, Trello, Monday.com (or all of them).
           </p>
         </div>
@@ -93,15 +93,15 @@ const BlueSide = () => {
             </p>
           </div>
         </div>
-        <p className="font-semibold mt-16 text-white mx-auto">
+        <p className="font-semibold mt-16 text-white text-center">
           You get a clean, unified view of everything happening — instantly.
           Less digging, more doing.
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center   gap-18 mt-26 border py-9.5">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-16 mt-24  py-10">
           {/* Bot image with text below */}
-          <div className="flex flex-col  items-start justify-center w-[289px] text-white mt-10">
+          <div className="flex flex-col items-center justify-center w-[289px] text-white mt-10">
             {/* Star and Bot image side by side */}
-            <div className="flex items-start space-x-2  w-full">
+            <div className="flex items-start space-x-2">
               <img src={Vector1} alt="star" className="w-5 mt-2" />
               <img src={bot} alt="" className="w-[289px] h-[210px]" />
               <div className="md:hidden ">
@@ -114,7 +114,7 @@ const BlueSide = () => {
             </div>
 
             {/* Paragraph below */}
-            <p className="text-base font-semibold text-start border items-center ml-10 -mt-10 md:mt-4">
+            <p className="text-base font-semibold text-start  items-center ml-10 -mt-10 md:mt-4">
               <span className="text-cyan-500">
                 Get AI Insights & Smart Alerts
               </span>
@@ -131,7 +131,7 @@ const BlueSide = () => {
           </div>
 
           {/* Computer image */}
-          <div className="flex flex-col items-start w-[289px]">
+          <div className="flex flex-col items-center justify-center w-[289px] text-white mt-10">
             <img src={computer} alt="" className="w-[280px] h-[250px]" />
             <p className="text-base font-semibold mt-10 text-white text-start ml-15">
               <span className="text-cyan-500">
@@ -142,9 +142,17 @@ const BlueSide = () => {
             </p>
           </div>
         </div>
+        <p className="font-semibold text-center text-white ">
+          Effortlessly stay ahead of overruns, team overloads, and urgent
+          issues—saving hours on reports while keeping everyone aligned.
+        </p>
+      </div>
+      <div className="flex justify-center items-center  mt-10 mb-10">
+        <button className="px-12 py-3 bg-[#8635FC] hover:bg-purple-800 cursor-pointer text-white rounded-lg">
+          Get Started
+        </button>
       </div>
     </div>
   );
 };
-
 export default BlueSide;

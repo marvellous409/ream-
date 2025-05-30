@@ -7,7 +7,7 @@ const Narbar = () => {
   return (
     <div className="relative z-50">
       {/* NAVBAR */}
-      <nav className="text-2xl bg-black flex w-full p-3 fixed right-0 top-0 space-x-14 items-center justify-center z-50">
+      <nav className="text-2xl bg-black flex w-full p-3 fixed right-0 top-0 space-x-14 items-center justify-center z-50 ">
         <img src={Image} alt="Image" />
 
         {/* Desktop Navigation */}

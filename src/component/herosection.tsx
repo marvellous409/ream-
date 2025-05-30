@@ -2,8 +2,7 @@ import Image from "../assets/Frame 1171276830.png";
 
 const HeroSection = () => {
   return (
-    <div>
-      <div className="w-full px-4 mt-[143px]">
+      <div className="px-4 mt-[143px]">
       <div className="flex  flex-col md:flex-col items-center justify-center gap-10 max-w-[1200px] mx-auto lg:flex-row">
 
           {/* Text Section */}
@@ -40,7 +39,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex mt-10 gap-4">
-              <button className="w-[191px] h-[49px] bg-[#8635FC] hover:bg-purple-800 rounded-md p- font-serif text-white">
+              <button className="w-[191px] h-[49px] bg-[#8635FC] hover:bg-purple-800 cursor-pointer rounded-md p- font-serif text-white">
                 Try DreamTrack Free
               </button>
               <button className="w-[191px] h-[49px] bg-transparent border border-purple-600 rounded-md  text-purple-600">
@@ -57,7 +56,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-    </div>
   );
 };
 
