@@ -117,10 +117,10 @@ const Smart = () => {
   }, []);
 
   return (
-    <div className="bg-[#F3F7FE]">
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start px-4 py-10 border">
+    <div className="bg-[#F3F7FE] overflow-hidden">
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-start px-4 py-10">
         {/* Left Side: Text & Rocket Image */}
-        <div className="flex flex-col items-start  mt-6 border md:mt-0">
+        <div className="flex flex-col items-start  mt-6  md:mt-0">
           <h3
             className="text-2xl sm:text-3xl md:text-4xl font-bold capitalize text-start"
             style={{
@@ -170,7 +170,7 @@ const Smart = () => {
         </div>
       </div>
       <div className="text-center  ">
-        <h3 className="text-center text-[70px]  text-gray-400 mt-10 font-[500px]">
+        <h3 className="text-center text-[70px]  text-gray-400  font-[500px]">
           Features{" "}
           <span
             style={{
@@ -184,10 +184,9 @@ const Smart = () => {
           </span>{" "}
           Benefits
         </h3>
-      </div>
-      <div className="flex flex-col items-center justify-center mb-10 space-y-4">
+      <div className="flex flex-col items-center justify-center  space-y-4">
         <p
-          className="mt-20 text-[40px] text-center font-[500px]"
+          className="mt-10 text-[40px] text-center font-[500px]"
           style={{
             width: "fit-content",
             backgroundImage: "linear-gradient(90deg, #8635FC, #4EDEFF)",
@@ -210,7 +209,8 @@ const Smart = () => {
           performance.
         </p>
       </div>
-      <div className="bg-gray-100 flex items-center mx-auto w-full max-w-xs sm:max-w-2xl md:max-w-4xl lg:max-w-6xl py-4 px-4 font-inter border-2 rounded-2xl border-gray-200">
+      </div>
+      <div className="bg-gray-100 flex items-center mt-10 mx-auto w-full max-w-xs sm:max-w-2xl md:max-w-4xl lg:max-w-6xl py-4 px-4 font-inter  rounded-2xl border-gray-200">
         <section className="relative w-full mx-auto rounded-2xl">
           {/* Scroll Left */}
           {currentIndex > 0 && (
@@ -338,6 +338,11 @@ const Smart = () => {
       font-family: 'Inter', sans-serif;
     }
   `}</style>
+      </div>
+      <div className="flex justify-center items-center mt-10 mb-10">
+        <button className="px-12 py-3 bg-[#8635FC] hover:bg-purple-800 cursor-pointer text-white rounded-lg">
+          Get Started
+        </button>
       </div>
     </div>
   );

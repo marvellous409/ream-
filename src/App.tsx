@@ -4,6 +4,7 @@ import HeroSection from "./component/herosection"; // make sure this file and ex
 import Icons from "./component/icons"; // make sure this file and export actually exist
 import BlueSide from "./component/blueside"; // make sure this file and export actually exist
 import Smart from "./component/smart"; // make sure this file and export actually exist
+import Trust from "./component/trust"; // make sure this file and export actually exist
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Icons />
       <BlueSide />
       <Smart/>
+      <Trust/>
     </>
   );
 }
