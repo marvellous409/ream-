@@ -20,8 +20,8 @@ const Icons = () => {
         >
           Trusted by top companies worldwide
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-2 justify-center w-[999px]">
-          <div className="flex flex-col items-center self-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 justify-center w-full max-w-7xl mx-auto px-4">
+          <div className="flex flex-col items-center">
             <img
               src={Image}
               alt="Company 1"
@@ -29,30 +29,30 @@ const Icons = () => {
             />
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image3} alt="OpenAI" className="w-8 sm:w-10 block" />
             <p className="font-semibold text-lg mt-0 leading-none">OpenAI</p>
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image1} alt="Microsoft" className="w-8 sm:w-10 block" />
             <p className="font-semibold text-lg mt-0 leading-none">Microsoft</p>
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image5} alt="Company 4" className="w-20 block" />
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image4} alt="Meta" className="w-8 sm:w-10 block" />
             <p className="font-semibold text-lg mt-0 leading-none">Meta</p>
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image2} alt="Company 6" className="w-28" />
           </div>
 
-          <div className="flex flex-col items-center self-center">
+          <div className="flex flex-col items-center">
             <img src={Image6} alt="Company 7" className="w-28" />
           </div>
         </div>

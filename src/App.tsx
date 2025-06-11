@@ -5,6 +5,9 @@ import Icons from "./component/icons"; // make sure this file and export actuall
 import BlueSide from "./component/blueside"; // make sure this file and export actually exist
 import Smart from "./component/smart"; // make sure this file and export actually exist
 import Trust from "./component/trust"; // make sure this file and export actually exist
+import Stick from "./component/stick"; // make sure this file and export actually exist
+import Blue from "./component/blue"; // make sure this file and export actually exist
+import Fooster from "./component/fooster"; // make sure this file and export actually exist
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <BlueSide />
       <Smart/>
       <Trust/>
+      <Stick/>
+      <Blue/>
+      <Fooster/>
     </>
   );
 }

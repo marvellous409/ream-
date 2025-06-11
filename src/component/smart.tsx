@@ -118,7 +118,7 @@ const Smart = () => {
 
   return (
     <div className="bg-[#F3F7FE] overflow-hidden">
-      <div className="flex flex-col md:flex-row justify-center items-center md:items-start px-4 py-10">
+      <div className="flex flex-col md:flex-row justify-center items-center md:items-start px-4 py-10 ">
         {/* Left Side: Text & Rocket Image */}
         <div className="flex flex-col items-start  mt-6  md:mt-0">
           <h3
