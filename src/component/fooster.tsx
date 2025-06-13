@@ -1,4 +1,3 @@
-import React from "react";
 import Fb from "../assets/facebook-logo-2019 1.png";
 import Ig from "../assets/Instagram_logo_2022.svg 1.png";
 import X from "../assets/x-twitter-logo-on-black-circle-5694247 1.png";
