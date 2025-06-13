@@ -144,7 +144,7 @@ const Trust = () => {
           </div>
         ))}
       </div>
-      <div className="border mx-auto text-center">
+      <div className="mx-auto text-center">
         <h4 className="text-[38px] text-[#636468] mt-10">
           Choose a Plan that Works Best for your Team
         </h4>
