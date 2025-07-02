@@ -5,7 +5,7 @@ import In from "../assets/In.png";
 import Frame from "../assets/Component 67.png";
 import Web from "../assets/ico.png";
 
-const Fooster = () => {
+const  Fooster = () => {
   return (
     <div className="bg-black text-white px-6 md:px-20 py-12">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 border-b border-gray-800 pb-10">

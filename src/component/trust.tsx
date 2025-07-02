@@ -89,9 +89,9 @@ const Trust = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16 p-4 md:p-0">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-20 mt-16 p-4 md:p-0">
         {/* Card 1 */}
-        <div className="w-[400px] md:w-[450px] p-4 flex flex-col justify-center h-[340px] items-center  rounded-2xl bg-white mb-8 md:mb-0 shadow-2xl">
+        <div className="w-[400px] md:w-[500px] p-4 flex flex-col justify-center h-[340px] items-center  rounded-2xl bg-white mb-8 md:mb-0  shadow-2xl">
           <img src={design} alt="vector" className="w-15 ml-auto" />
           <img src={shirt} alt="video" width="350" className="mt-4 mb-5" />
           <p className="font-semibold text-base text-center">
@@ -100,7 +100,7 @@ const Trust = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-[410px] md:w-[400px] p-4 flex flex-col justify-center h-[340px] items-center  rounded-2xl bg-white shadow-2xl">
+        <div className="w-[410px] md:w-[500px] p-4 flex flex-col justify-center h-[340px] items-center  rounded-2xl bg-white shadow-2xl">
           <img src={vector} alt="vector" className="w-20 ml-auto" />
           <img
             src={video}
