@@ -10,6 +10,8 @@ import Stick from "./component/stick"; // make sure this file and export actuall
 import Blue from "./component/blue"; // make sure this file and export actually exist
 import Fooster from "./component/fooster"; // make sure this file and export actually exist
 import  Board from "./component/Dashboard/main board"; // make sure this file and export actually exist
+import Login from "./component/auth/login"; // make sure this file and export actually exist
+import Sign from "./component/auth/signin"; // make sure this file and export actually exist
 
 function Home() {
   return (
@@ -33,6 +35,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/main board" element={<Board/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/Sign" element={<Sign/>}/>
         <Route
           path="*"
           element={

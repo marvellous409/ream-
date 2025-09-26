@@ -3,7 +3,6 @@ import Ig from "../assets/Instagram_logo_2022.svg 1.png";
 import X from "../assets/x-twitter-logo-on-black-circle-5694247 1.png";
 import In from "../assets/In.png";
 import Frame from "../assets/Component 67.png";
-import Web from "../assets/ico.png";
 
 const  Fooster = () => {
   return (
@@ -32,79 +31,33 @@ const  Fooster = () => {
         <div className="sm:col-span-2 md:col-span-3 lg:col-span-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Product */}
           <div>
-            <h4 className="font-semibold mb-3">Product</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Features</li>
-              <li>How it works</li>
-              <li>Roadmap</li>
-              <li>Integrations</li>
-              <li>Pricing</li>
-              <li>FAQ</li>
+              <li>About us</li>
+              <li>Careers</li>
+              <li>Press</li>
+              <li>blog</li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-3">Company</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>About Us</li>
-              <li>Our Team</li>
-              <li>Blog</li>
-              <li>Careers</li>
+              <li>Help Center</li>
+              <li>Safety</li>
               <li>Contact Us</li>
-              <li>Press Kit</li>
+              <li>Trust & Safety</li>
             </ul>
           </div>
 
           {/* Resources */}
           <div>
-            <h4 className="font-semibold mb-3">Resources</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Help Center</li>
-              <li>User Guides</li>
-              <li>Release note</li>
-              <li>Community</li>
-              <li>Tutorials</li>
-              <li>Template</li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h4 className="font-semibold mb-3">Legal</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li>Terms of Service</li>
               <li>Privacy Policy</li>
-              <li>Cookies Policy</li>
-              <li>Security & Compliance</li>
-              <li>Accessibility</li>
+              <li>Terms of Service</li>
+              <li>Cookie Policy</li>
+              <li>Disclaimer</li>
             </ul>
           </div>
-        </div>
-      </div>
-      {/* Newsletter and Language */}
-      <div className="mt-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-        {/* Newsletter */}
-        <div className="flex flex-col gap-4 w-full lg:flex-row lg:items-center lg:flex-1">
-          <label className="text-sm text-gray-400">
-            Subscribe to our newsletter:
-          </label>
-          <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="px-6 py-2 rounded-[18px] bg-transparent border border-purple-500 text-white placeholder-gray-500 focus:outline-none w-full sm:w-72"
-            />
-            <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-2 rounded-md w-full sm:w-auto">
-              Subscribe
-            </button>
-          </div>
-        </div>
-
-        {/* Language Selector */}
-        <div className="flex items-center gap-2 justify-center lg:justify-end text-gray-400">
-          <img src={Web} alt="Web Icon" className="w-4 h-4" />
-          <span className="text-sm">English</span>
         </div>
       </div>
     </div>

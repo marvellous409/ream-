@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Image from "../assets/Component 67.png";
 
 const Narbar = () => {
@@ -12,28 +13,23 @@ const Narbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex text-white gap-3.5 text-center">
-          <select>
-            <option>Features</option>
-          </select>
-          <select>
-            <option>Integration</option>
-          </select>
-          <ul>
+          <ul className="flex gap-4">
+            <li>Features</li>
+            <li>Integration</li>
+
             <li>Price</li>
-          </ul>
-          <select>
-            <option>Resources</option>
-          </select>
-          <ul>
+
+            <li>Resources</li>
+
             <li>Contact</li>
           </ul>
         </div>
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center space-x-2">
-          <button className="text-white">Login</button>
+          <button className="text-white">  <Link to="/login">Login</Link></button>
           <button className="text-white border border-purple-500 px-4 py-0.5 rounded-lg">
-            Sign up
+          <Link to="/sign">sign up</Link>
           </button>
         </div>
 
@@ -51,26 +47,18 @@ const Narbar = () => {
       {/* ✅ Mobile Navigation (outside nav, positioned separately) */}
       {menuOpen && (
         <div className="lg:hidden fixed top-20 right-0 h-[400px] w-full flex flex-col text-white p-4 z-40 bg-black font-semibold text-2xl">
-          <select className="w-full p-2 mb-2 rounded">
-            <option>Features</option>
-          </select>
-          <select className="w-full p-2 mb-2">
-            <option>Integration</option>
-          </select>
-          <ul className="mb-2 text-left px-3">
-            <li>Price</li>
-          </ul>
-          <select className="w-full p-2 mb-2">
-            <option>Resources</option>
-          </select>
-          <ul className="mb-2 text-left px-2">
-            <li>Contact</li>
+          <ul className="w-full p-2 mb-1.5 rounded space-y-1">
+            <li className="pb-2 rounded-xl">Features</li>
+            <li className="pb-2 rounded-xl">Integration</li>
+            <li className="pb-2 rounded-xl">Price</li>
+            <li className="pb-2 rounded-xl">Resources</li>
+            <li className="pb-2 rounded-xl">Contact</li>
           </ul>
           <button className="py-2 rounded bg-purple-700 px-2 hover:bg-purple-800 mt-4 w-full text-left">
-            Login
+          <Link to="/login">Login</Link>
           </button>
           <button className="border border-purple-500 px-4 py-2 rounded mt-2  text-left w-full">
-            Sign Up
+          <Link to="/sign">sign up</Link>
           </button>
         </div>
       )}

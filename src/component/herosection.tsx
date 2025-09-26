@@ -50,7 +50,7 @@ const HeroSection = () => {
 
           {/* Image Section */}
           <img
-            className="w-full max-w-[400px] xl:max-w-[500px] object-cover shadow-2xs xl:w-1/2"
+            className=""
             src={Image}
             alt="Image"
           />
